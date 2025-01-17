@@ -7,5 +7,6 @@ public class Lab002_Practice {
  * Multiple line comment
  */
         System.out.println("Just for Practice");
+        System.out.println("hi");
     }
 }
