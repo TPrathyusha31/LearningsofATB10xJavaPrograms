@@ -2,8 +2,8 @@ package ex_01_Java_Basics;
 
 public class Lab004_GradeCalculator_ternaryoperator {
     public static void main(String[] args) {
-        int score= 78;
-       String grade= (score<100 && score>90)?"A":(score>80)?"B":(score>70)?"C":(score>60)?"D":"E";
+        int score= 70;
+       String grade= (score<=100 && score>=90)?"A":(score>=80)?"B":(score>=70)?"C":(score>=60)?"D":"E";
         System.out.println(grade);
     }
 
