@@ -9,4 +9,4 @@ public class Lab004_GradeCalculator_ternaryoperator {
 
 }
 //Another way--->
-// String grade = (score>=90 && score<=100)?"A":(score>=80 && score<=90)?"B":(score>=70 && score<=80)?"C":(score>=60 && score<=70)?"D":"E";
+// String grade = (score>=90 && score<=100)?"A":(score>=80 && score<=89)?"B":(score>=70 && score<=79)?"C":(score>=60 && score<=69)?"D":"E";
