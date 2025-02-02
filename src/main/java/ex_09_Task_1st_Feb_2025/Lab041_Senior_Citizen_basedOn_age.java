@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Lab041_Senior_Citizen_basedOn_age {
     public static void main(String[] args) {
+//        take the age input from the user.
+//        Implement Age Category Logic:
+//        Define the criteria for different age categories:
+//        Child: Age 0 to 12
+//        Teenager: Age 13 to 19
+//        Adult: Age 20 to 64
+//        Senior Citizen: Age 65 and older
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the age : ");
         int age = 0;
@@ -24,5 +31,6 @@ public class Lab041_Senior_Citizen_basedOn_age {
         } else{  // if user enters negative value of age
             System.out.println("Please enter a valid age value above zero.");
         }
+        sc.close();
     }
 }

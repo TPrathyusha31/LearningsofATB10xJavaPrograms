@@ -9,7 +9,7 @@ public class Lab013_Reverse_of_number {
         System.out.println("Enter the number : ");
         int num = sc.nextInt();
         int rem=0,revnum=0;
-        for (int i = 0; i < num; i++) {
+        while(num>0) {
             rem = num % 10;
             revnum = rem + revnum * 10;
             num = num / 10;
