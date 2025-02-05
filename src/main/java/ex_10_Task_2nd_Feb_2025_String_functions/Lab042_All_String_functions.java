@@ -66,6 +66,8 @@ public class Lab042_All_String_functions {
         String b = "  Yes you can quiz me     ";
         System.out.println(b.trim());
 
+
+
         //16.CompareTo() --> It compares two strings if they are lexographically equal or not(lexographically mean based on ASCII value)
         //An int value: 0 if the string is equal to the other string.
         //< 0 if the string is lexicographically less than the other string
