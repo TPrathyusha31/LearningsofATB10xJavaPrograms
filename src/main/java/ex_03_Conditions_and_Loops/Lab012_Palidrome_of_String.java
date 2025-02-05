@@ -7,7 +7,8 @@ public class Lab012_Palidrome_of_String {
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Enter the String : ");
 //        String name = sc.next();
-//
+//        StringBuilder builder =new StringBuilder(name);
+////
 
     }
 }
