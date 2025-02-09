@@ -7,8 +7,8 @@ public class Lab060_Right_angled_triangle {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the total number of rows: ");
         int rows = sc.nextInt();
-        for (int i = 1; i <= rows; i++) {
-            for (int j = 1; j <= i; j++) {
+        for (int i = 0; i <= rows-1; i++) {  //matrix starts from index 0
+            for (int j = 0; j <= i; j++) {
                 System.out.print("*  ");
             }
             System.out.println();

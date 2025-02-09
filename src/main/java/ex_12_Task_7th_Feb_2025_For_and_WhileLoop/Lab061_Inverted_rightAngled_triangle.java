@@ -7,8 +7,8 @@ public class Lab061_Inverted_rightAngled_triangle {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows : ");
         int rows= sc.nextInt();
-        for(int i=1;i<=rows;i++) {
-            for (int j = rows;j>=i;j--){
+        for(int i=0;i<=rows-1;i++) { //matrix starts from 0 index
+            for (int j = rows-1;j>=i;j--){
                 System.out.print("*  ");
             }
             System.out.println();
