@@ -15,7 +15,7 @@ public class Lab069_Second_Smallest_in_array {
                 }
             }
         }
-        System.out.println("The second smallest number is : "numbers[1]);
+        System.out.println("The second smallest number is : " + numbers[1]);
 
 //         Another way -- using sort function
 //        Arrays.sort(numbers);
