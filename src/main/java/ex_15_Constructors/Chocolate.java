@@ -11,6 +11,8 @@ public class Chocolate{
         System.out.println("These are the available chocolates.");
     }
 
+
+
     void display(){
 
         System.out.println("The name of the chocolate is : " + name + " which costs : " + price + " rupees");
